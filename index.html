@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"><!--//lingua -->  
+<head> <!--head são os metadados para o navegador -->    
+    <meta charset="UTF-8"> <!--//indica os caracteres que sao usados no código  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--//adapta o site para outros dispositivos (altura, largura, mobile) -->
+    <meta name= "description" content="Um teste que o Fernando Veras está fazendo."><!--//metadao de descrição -->
+    <title>Teste do Fernando</title> <!--// titulo que aparece no google  -->
+    <link rel = "stylesheet" type ="text/css" href="style.css"> <!--Faz o link entre css e html -->
+</head>
+
+<body> <!--//body é o site que aparece para o usuario -->
+    <header class ="cabecalho"> <!--// header é uma tag que indica que o conteudo pertence ao cabecalho. -->
+        <img class ="cabecalho_imagem" src="logo.svg" alt="Esta é a imagem do logo"> <!-- alt: aparece quando o site não está funcionando.-->
+        <nav class ="cabecalho_menu"> <!--// são as ancoras que levam para outra parte do site -->
+            <a class ="cabecalho_menu_item">Comunidade Ballerini</a>
+            <a class ="cabecalho_menu_item">Tutorial</a>
+            <a class ="cabecalho_menu_item">Open Source</a>
+            <a class ="cabecalho_menu_item">Comandos</a>
+        </nav>
+    </header>
+
+    <main class ="conteudo"> <!--//main indica que o conteudo é o principal na pagina  -->
+        <section class ="conteudo_principal">
+            <div class ="conteudo_principal_escrito">
+                <h1 class ="conteudo_principal_escrito_titulo">Balle Bot</h1> <!-- h1 -> titulo, h2 -> subtitulo... h6-> subtitulo -->
+                <h2 class ="conteudo_principal_escrito_subtitulo">Deixe a sua comunidade segura de um jeito fácil</h2> <!--Subtitulo-->
+                <button class ="conteudo_principal_escrito_botao">Me Adicione!</button>
+            </div>
+            <img class ="conteudo_principal_imagem" src="ballebot.svg">
+
+        </section>
+            
+        <section class ="conteudo_secundario">
+            <h3 class ="conteudo_secundario_titulo">O que ela faz por você?</h3>
+            <p class ="conteudo_secundario_paragrafo">1. Cria um <strong>sistema de verificação capcha</strong> para novos membros garantirem que não são robôs</p> <!-- <p> = Paragrafo-->
+            <p class ="conteudo_secundario_paragrafo">2. Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidade</p>
+            <p class ="conteudo_secundario_paragrafo">3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+        </section>
+    </main>
+
+    <footer class ="rodape"> <!--// foter refere-se ao rodape --> 
+        <img  class ="rodape_imagem" src="ballerini.svg" alt="Logo Ballerini">
+    </footer>
+</body>
+
+</html>
